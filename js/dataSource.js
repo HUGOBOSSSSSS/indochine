@@ -49,7 +49,8 @@ const HOURS_QUERY = `*[_type == "openingHours"][0] { schedule, exceptionalClosur
 const INFO_QUERY = `*[_type == "restaurantInfo"][0] {
   name, tagline, description, address, phone, email, geopoint,
   googleMapsEmbedUrl, googleMapsDirectionsUrl, socialLinks,
-  "logo": logo.asset->url
+  "logo": logo.asset->url,
+  "heroImage": heroImage.asset->url
 }`;
 
 const GALLERY_QUERY = `*[_type == "galleryImage"] | order(order asc) {

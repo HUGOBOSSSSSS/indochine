@@ -38,6 +38,14 @@ function renderRestaurantInfo(info) {
     });
   }
 
+  if (info.heroImage) {
+    const heroEl = document.querySelector('.hero');
+    if (heroEl) {
+      heroEl.style.setProperty('--hero-image', `url("${info.heroImage}")`);
+      heroEl.classList.add('has-bg-image');
+    }
+  }
+
   const fb = document.querySelector('[data-social="facebook"]');
   if (fb) fb.href = info.socialLinks.facebook;
 

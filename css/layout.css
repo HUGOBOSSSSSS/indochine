@@ -183,6 +183,15 @@
     linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-alt) 100%);
 }
 
+/* Quand une image de fond est définie via Sanity */
+.hero.has-bg-image {
+  background:
+    radial-gradient(ellipse at 20% 20%, rgba(227, 39, 62, 0.40), transparent 55%),
+    radial-gradient(ellipse at 80% 80%, rgba(227, 39, 62, 0.28), transparent 55%),
+    linear-gradient(180deg, rgba(12, 12, 13, 0.60) 0%, rgba(12, 12, 13, 0.75) 100%),
+    var(--hero-image) center / cover no-repeat;
+}
+
 .hero::before {
   content: "";
   position: absolute;
