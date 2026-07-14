@@ -1,0 +1,12 @@
+# Studio Sanity (tourne en local uniquement, non déployé)
+studio-l'indochine/
+
+# Dépendances Node
+node_modules/
+
+# Divers
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local

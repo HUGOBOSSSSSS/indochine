@@ -1,0 +1,16 @@
+{
+  "_comment": "Données fictives (placeholder). Structure alignée sur le futur document singleton Sanity 'openingHours'. day: 0=dimanche ... 6=samedi (cohérent avec Date.getDay()).",
+  "schedule": [
+    { "day": 1, "label": "Lundi", "isClosed": true, "slots": [] },
+    { "day": 2, "label": "Mardi", "isClosed": false, "slots": [{ "open": "12:00", "close": "14:00" }, { "open": "18:30", "close": "22:00" }] },
+    { "day": 3, "label": "Mercredi", "isClosed": false, "slots": [{ "open": "12:00", "close": "14:00" }, { "open": "18:30", "close": "22:00" }] },
+    { "day": 4, "label": "Jeudi", "isClosed": false, "slots": [{ "open": "12:00", "close": "14:00" }, { "open": "18:30", "close": "22:00" }] },
+    { "day": 5, "label": "Vendredi", "isClosed": false, "slots": [{ "open": "12:00", "close": "14:00" }, { "open": "18:30", "close": "22:30" }] },
+    { "day": 6, "label": "Samedi", "isClosed": false, "slots": [{ "open": "12:00", "close": "14:30" }, { "open": "18:30", "close": "22:30" }] },
+    { "day": 0, "label": "Dimanche", "isClosed": false, "slots": [{ "open": "12:00", "close": "14:30" }, { "open": "18:30", "close": "21:30" }] }
+  ],
+  "exceptionalClosures": [
+    { "date": "2026-12-25", "reason": "Noël" },
+    { "date": "2026-01-01", "reason": "Nouvel An" }
+  ]
+}

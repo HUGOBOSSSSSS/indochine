@@ -1,0 +1,25 @@
+{
+  "_comment": "Donnees fictives (placeholder) - a remplacer par le document singleton Sanity 'restaurantInfo' une fois le CMS branche.",
+  "name": "L'Indochine",
+  "tagline": "Restaurant & Traiteur Vietnamien",
+  "description": "Cuisine vietnamienne authentique au cœur de Wavre : pho, bun, banh mi et spécialités traiteur préparés avec des produits frais et des recettes traditionnelles.",
+  "address": {
+    "street": "Rue Charles Lamquet 8",
+    "postalCode": "1300",
+    "city": "Wavre",
+    "country": "Belgique"
+  },
+  "phone": "+32 10 22 33 44",
+  "email": "contact@indochinewavre.be",
+  "geopoint": {
+    "lat": 50.7167,
+    "lng": 4.6017
+  },
+  "googleMapsEmbedUrl": "https://www.google.com/maps?q=Rue+Charles+Lamquet+8,+1300+Wavre,+Belgique&output=embed",
+  "googleMapsDirectionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Rue+Charles+Lamquet+8,+1300+Wavre,+Belgique",
+  "socialLinks": {
+    "facebook": "https://www.facebook.com/indochinewavre",
+    "instagram": "https://www.instagram.com/indochinewavre",
+    "tripadvisor": "https://www.tripadvisor.fr/"
+  }
+}

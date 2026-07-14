@@ -1,0 +1,61 @@
+{
+  "_comment": "Données fictives (placeholder). Structure alignée sur la future requête GROQ : *[_type == 'googleReview'] | order(featured desc, date desc)",
+  "averageRating": 4.7,
+  "reviewCount": 312,
+  "reviews": [
+    {
+      "_id": "review-1",
+      "authorName": "Claire D.",
+      "rating": 5,
+      "text": "Un vrai coup de cœur ! Le Bun Cha est exceptionnel et le service est toujours chaleureux. L'ambiance feutrée donne vraiment envie de s'attarder.",
+      "date": "2026-05-12",
+      "source": "Google",
+      "featured": true
+    },
+    {
+      "_id": "review-2",
+      "authorName": "Mehdi B.",
+      "rating": 5,
+      "text": "Le meilleur Pho de Wavre, sans hésiter. Bouillon parfumé, viande fondante. On y retourne dès qu'on peut.",
+      "date": "2026-04-28",
+      "source": "Google",
+      "featured": true
+    },
+    {
+      "_id": "review-3",
+      "authorName": "Sophie L.",
+      "rating": 4,
+      "text": "Très bonne adresse pour un repas traiteur entre collègues. Les nems sont délicieux et bien servis. Petit bémol sur le temps d'attente un samedi soir.",
+      "date": "2026-04-02",
+      "source": "Google",
+      "featured": false
+    },
+    {
+      "_id": "review-4",
+      "authorName": "Thomas V.",
+      "rating": 5,
+      "text": "Cadre magnifique, lumière tamisée, lanternes rouges... on se croirait à Hanoï. Et la cuisine est à la hauteur du décor.",
+      "date": "2026-03-15",
+      "source": "Google",
+      "featured": true
+    },
+    {
+      "_id": "review-5",
+      "authorName": "Amandine R.",
+      "rating": 5,
+      "text": "Le banh mi au porc grillé est juste parfait, croustillant et bien garni. Personnel adorable.",
+      "date": "2026-02-20",
+      "source": "Google",
+      "featured": false
+    },
+    {
+      "_id": "review-6",
+      "authorName": "Julien P.",
+      "rating": 4,
+      "text": "Très bon rapport qualité-prix pour de la cuisine vietnamienne authentique. Le canard laqué est à essayer absolument.",
+      "date": "2026-01-30",
+      "source": "Google",
+      "featured": false
+    }
+  ]
+}
